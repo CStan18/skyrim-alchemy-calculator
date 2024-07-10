@@ -9,8 +9,8 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 public class PotionRecipe {
-    private Long ingredient1Id;
-    private Long ingredient2Id;
+    private String ingredient1Name;
+    private String ingredient2Name;
     private List<String> commonEffects;
     private double value;
 

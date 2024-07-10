@@ -36,9 +36,8 @@ public class PotionRecipeServiceImpl implements PotionRecipeService {
     @Override
     public List<PotionRecipe> createRecipes(IngredientQuantityRequest request) {
 
-        // early return if request is empty
         List<PotionRecipe> response = new ArrayList<>();
-        // check if list is empty
+
         if (request.getIngredients().get(0) == null) {
             return response;
         }
@@ -124,7 +123,7 @@ public class PotionRecipeServiceImpl implements PotionRecipeService {
         double value = ingredient1.getValue() + ingredient2.getValue();
 
         // Create and return a new PotionRecipe
-        return new PotionRecipe(ingredient1Id, ingredient2Id, commonEffects, value);
+        return new PotionRecipe(ingredient1.getName(), ingredient2.getName(), commonEffects, value);
     }
 
 }
