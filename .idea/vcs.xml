@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/skyrim-alchemy-calculator-outer-api" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/skyrim-alchemy-calculator-ui" vcs="Git" />
   </component>
 </project>

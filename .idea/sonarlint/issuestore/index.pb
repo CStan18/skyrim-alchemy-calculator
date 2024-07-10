@@ -1,7 +1,5 @@
 
-g
-7skyrim-alchemy-calculator-ui/src/app/app.component.html,6\6\66d89d8b924cee7e82c8aa28a2c190e98c69133f
-\
-,skyrim-alchemy-calculator-ui/src/styles.scss,1\d\1d341072de759239ae904d664f70b6d84090d85a
-Y
-)skyrim-alchemy-calculator-ui/package.json,c\e\ceefa32e48eea90752c635869104adf1a579d491
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+z
+Jskyrim-alchemy-calculator-outer-api/src/main/resources/application-dev.yml,e\b\eb0258a3ea3faade80559b0b4e3dc15fdf7efdfd
