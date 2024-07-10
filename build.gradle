@@ -22,11 +22,6 @@ repositories {
 	mavenCentral()
 }
 
-bootRun {
-	mainClass = 'com.cstan18.skyrimalchemycalculatorouterapi.SkyrimAlchemyCalculatorOuterApiApplication'
-}
-
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
@@ -52,14 +47,6 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-bootRun {
-	mainClass = 'com.cstan18.skyrimalchemycalculatorouterapi.SkyrimAlchemyCalculatorOuterApiApplication'
-}
-
-processResources {
-	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-}
-
 tasks.named('test') {
 	useJUnitPlatform()
 }
@@ -67,17 +54,6 @@ test {
 	useJUnitPlatform()
 	testLogging {
 		events "started", "passed", "skipped", "failed"
-	}
-}
-
-sourceSets {
-	main {
-		java {
-			srcDir 'src/main/java'
-		}
-		resources {
-			srcDir 'src/main/resources'
-		}
 	}
 }
 

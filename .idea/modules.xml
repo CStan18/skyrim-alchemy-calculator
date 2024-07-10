@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/skyrim-alchemy-calculator.iml" filepath="$PROJECT_DIR$/.idea/skyrim-alchemy-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skyrim-alchemy-calculator-outer-api/skyrim-alchemy-calculator.skyrim-alchemy-calculator-outer-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/skyrim-alchemy-calculator-outer-api/skyrim-alchemy-calculator.skyrim-alchemy-calculator-outer-api.main.iml" />
     </modules>
   </component>
 </project>

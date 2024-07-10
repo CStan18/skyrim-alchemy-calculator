@@ -1,0 +1,3 @@
+rootProject.name = 'skyrim-alchemy-calculator'
+include 'skyrim-alchemy-calculator-outer-api'
+include 'ui'
